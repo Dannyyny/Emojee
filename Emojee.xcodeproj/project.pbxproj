@@ -3,23 +3,49 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		794429E1D22812101AAA7C05 /* Pods_Emojee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53AA7860AE51457EBA30B604 /* Pods_Emojee.framework */; };
+		C2BAB9B12612DB0000B31E51 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BAB9B02612DB0000B31E51 /* RegisterViewController.swift */; };
+		C2BAB9B42612DB3200B31E51 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BAB9B32612DB3200B31E51 /* LoginViewController.swift */; };
+		C2BAB9B72612E6B700B31E51 /* EmojeeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BAB9B62612E6B700B31E51 /* EmojeeViewController.swift */; };
+		C2ED504726141C8400A5AD00 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C2ED504626141C8400A5AD00 /* GoogleService-Info.plist */; };
+		C2ED50802615020300A5AD00 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2ED507F2615020300A5AD00 /* Constants.swift */; };
+		C2ED50B62616846C00A5AD00 /* FriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2ED50B52616846C00A5AD00 /* FriendViewController.swift */; };
+		C2ED50C0261E59CC00A5AD00 /* EmojeeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2ED50BF261E59CC00A5AD00 /* EmojeeCollectionViewCell.swift */; };
+		C2ED50C5261E743100A5AD00 /* ComputerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2ED50C4261E743100A5AD00 /* ComputerViewController.swift */; };
+		C2ED50C8261E795B00A5AD00 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2ED50C7261E795B00A5AD00 /* CustomTableViewCell.swift */; };
+		C2ED50CB261E797D00A5AD00 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2ED50CA261E797D00A5AD00 /* CustomCollectionViewCell.swift */; };
+		C2ED50D3262001A700A5AD00 /* FriendPageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2ED50D2262001A700A5AD00 /* FriendPageCell.swift */; };
 		C2F7AB17260D3D1500DDD988 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F7AB16260D3D1500DDD988 /* AppDelegate.swift */; };
 		C2F7AB19260D3D1500DDD988 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F7AB18260D3D1500DDD988 /* SceneDelegate.swift */; };
-		C2F7AB1B260D3D1500DDD988 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F7AB1A260D3D1500DDD988 /* ViewController.swift */; };
+		C2F7AB1B260D3D1500DDD988 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F7AB1A260D3D1500DDD988 /* WelcomeViewController.swift */; };
 		C2F7AB1E260D3D1500DDD988 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2F7AB1C260D3D1500DDD988 /* Main.storyboard */; };
 		C2F7AB20260D3D1800DDD988 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2F7AB1F260D3D1800DDD988 /* Assets.xcassets */; };
 		C2F7AB23260D3D1800DDD988 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2F7AB21260D3D1800DDD988 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		360887216D3FE46AD431681C /* Pods-Emojee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Emojee.debug.xcconfig"; path = "Target Support Files/Pods-Emojee/Pods-Emojee.debug.xcconfig"; sourceTree = "<group>"; };
+		53AA7860AE51457EBA30B604 /* Pods_Emojee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Emojee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C743DEB1F07BEF5FFC0DB89 /* Pods-Emojee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Emojee.release.xcconfig"; path = "Target Support Files/Pods-Emojee/Pods-Emojee.release.xcconfig"; sourceTree = "<group>"; };
+		C2BAB9B02612DB0000B31E51 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		C2BAB9B32612DB3200B31E51 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C2BAB9B62612E6B700B31E51 /* EmojeeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojeeViewController.swift; sourceTree = "<group>"; };
+		C2ED504626141C8400A5AD00 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C2ED507F2615020300A5AD00 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C2ED50B52616846C00A5AD00 /* FriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendViewController.swift; sourceTree = "<group>"; };
+		C2ED50BF261E59CC00A5AD00 /* EmojeeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojeeCollectionViewCell.swift; sourceTree = "<group>"; };
+		C2ED50C4261E743100A5AD00 /* ComputerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComputerViewController.swift; sourceTree = "<group>"; };
+		C2ED50C7261E795B00A5AD00 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		C2ED50CA261E797D00A5AD00 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		C2ED50D2262001A700A5AD00 /* FriendPageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendPageCell.swift; sourceTree = "<group>"; };
 		C2F7AB13260D3D1500DDD988 /* Emojee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Emojee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2F7AB16260D3D1500DDD988 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C2F7AB18260D3D1500DDD988 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C2F7AB1A260D3D1500DDD988 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C2F7AB1A260D3D1500DDD988 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		C2F7AB1D260D3D1500DDD988 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C2F7AB1F260D3D1800DDD988 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2F7AB22260D3D1800DDD988 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -31,17 +57,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				794429E1D22812101AAA7C05 /* Pods_Emojee.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		961C9AA8F1DB7F9E604192D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				360887216D3FE46AD431681C /* Pods-Emojee.debug.xcconfig */,
+				6C743DEB1F07BEF5FFC0DB89 /* Pods-Emojee.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A57F81F078684E30CC7906ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53AA7860AE51457EBA30B604 /* Pods_Emojee.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C2F7AB0A260D3D1500DDD988 = {
 			isa = PBXGroup;
 			children = (
 				C2F7AB15260D3D1500DDD988 /* Emojee */,
 				C2F7AB14260D3D1500DDD988 /* Products */,
+				961C9AA8F1DB7F9E604192D6 /* Pods */,
+				A57F81F078684E30CC7906ED /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +104,40 @@
 			children = (
 				C2F7AB16260D3D1500DDD988 /* AppDelegate.swift */,
 				C2F7AB18260D3D1500DDD988 /* SceneDelegate.swift */,
-				C2F7AB1A260D3D1500DDD988 /* ViewController.swift */,
-				C2F7AB1C260D3D1500DDD988 /* Main.storyboard */,
+				C2F7AB49260EB8FB00DDD988 /* Views */,
+				C2F7AB4B260EB91400DDD988 /* Controllers */,
 				C2F7AB1F260D3D1800DDD988 /* Assets.xcassets */,
 				C2F7AB21260D3D1800DDD988 /* LaunchScreen.storyboard */,
 				C2F7AB24260D3D1800DDD988 /* Info.plist */,
+				C2ED504626141C8400A5AD00 /* GoogleService-Info.plist */,
+				C2ED507F2615020300A5AD00 /* Constants.swift */,
 			);
 			path = Emojee;
+			sourceTree = "<group>";
+		};
+		C2F7AB49260EB8FB00DDD988 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C2F7AB1C260D3D1500DDD988 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C2F7AB4B260EB91400DDD988 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C2F7AB1A260D3D1500DDD988 /* WelcomeViewController.swift */,
+				C2BAB9B02612DB0000B31E51 /* RegisterViewController.swift */,
+				C2BAB9B32612DB3200B31E51 /* LoginViewController.swift */,
+				C2BAB9B62612E6B700B31E51 /* EmojeeViewController.swift */,
+				C2ED50BF261E59CC00A5AD00 /* EmojeeCollectionViewCell.swift */,
+				C2ED50C4261E743100A5AD00 /* ComputerViewController.swift */,
+				C2ED50C7261E795B00A5AD00 /* CustomTableViewCell.swift */,
+				C2ED50CA261E797D00A5AD00 /* CustomCollectionViewCell.swift */,
+				C2ED50B52616846C00A5AD00 /* FriendViewController.swift */,
+				C2ED50D2262001A700A5AD00 /* FriendPageCell.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +147,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C2F7AB27260D3D1800DDD988 /* Build configuration list for PBXNativeTarget "Emojee" */;
 			buildPhases = (
+				B2D1FDFD6169BF78CC6F7B55 /* [CP] Check Pods Manifest.lock */,
 				C2F7AB0F260D3D1500DDD988 /* Sources */,
 				C2F7AB10260D3D1500DDD988 /* Frameworks */,
 				C2F7AB11260D3D1500DDD988 /* Resources */,
+				DF523AF0ACB708ED52FB4323 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,6 +200,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2F7AB23260D3D1800DDD988 /* LaunchScreen.storyboard in Resources */,
+				C2ED504726141C8400A5AD00 /* GoogleService-Info.plist in Resources */,
 				C2F7AB20260D3D1800DDD988 /* Assets.xcassets in Resources */,
 				C2F7AB1E260D3D1500DDD988 /* Main.storyboard in Resources */,
 			);
@@ -132,14 +208,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B2D1FDFD6169BF78CC6F7B55 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Emojee-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF523AF0ACB708ED52FB4323 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Emojee/Pods-Emojee-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Emojee/Pods-Emojee-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Emojee/Pods-Emojee-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C2F7AB0F260D3D1500DDD988 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2F7AB1B260D3D1500DDD988 /* ViewController.swift in Sources */,
+				C2F7AB1B260D3D1500DDD988 /* WelcomeViewController.swift in Sources */,
+				C2BAB9B72612E6B700B31E51 /* EmojeeViewController.swift in Sources */,
+				C2ED50C8261E795B00A5AD00 /* CustomTableViewCell.swift in Sources */,
 				C2F7AB17260D3D1500DDD988 /* AppDelegate.swift in Sources */,
 				C2F7AB19260D3D1500DDD988 /* SceneDelegate.swift in Sources */,
+				C2ED50802615020300A5AD00 /* Constants.swift in Sources */,
+				C2ED50B62616846C00A5AD00 /* FriendViewController.swift in Sources */,
+				C2ED50CB261E797D00A5AD00 /* CustomCollectionViewCell.swift in Sources */,
+				C2BAB9B42612DB3200B31E51 /* LoginViewController.swift in Sources */,
+				C2ED50C5261E743100A5AD00 /* ComputerViewController.swift in Sources */,
+				C2BAB9B12612DB0000B31E51 /* RegisterViewController.swift in Sources */,
+				C2ED50C0261E59CC00A5AD00 /* EmojeeCollectionViewCell.swift in Sources */,
+				C2ED50D3262001A700A5AD00 /* FriendPageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +411,7 @@
 		};
 		C2F7AB28260D3D1800DDD988 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 360887216D3FE46AD431681C /* Pods-Emojee.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -301,6 +430,7 @@
 		};
 		C2F7AB29260D3D1800DDD988 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C743DEB1F07BEF5FFC0DB89 /* Pods-Emojee.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

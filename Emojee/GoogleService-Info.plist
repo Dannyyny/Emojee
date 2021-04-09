@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>823194593274-kvddg6bt03v5v6ejdip1c4td7f1fi9a0.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.823194593274-kvddg6bt03v5v6ejdip1c4td7f1fi9a0</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAkprj3l5KLm2f80vks6Ud6J0V3__ga42Q</string>
+	<key>GCM_SENDER_ID</key>
+	<string>823194593274</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.Daniellezhao.Emojee</string>
+	<key>PROJECT_ID</key>
+	<string>emojee</string>
+	<key>STORAGE_BUCKET</key>
+	<string>emojee.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:823194593274:ios:f4cd6b52cab187f5092643</string>
+</dict>
+</plist>
